@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+
+<!--head = cabeça body = corpo-->
+<head> <!-- head são as configurações da pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8"> <!-- Define os conjuntos de caracteres que vamos usar na p[agina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Adaptar o tamanho da pagina de acordo com o dispositivo (celular, note, etc)-->
+  
+    <title>ProjetoHTML&CSS</title>
+    <link rel="stylesheet" href="./style.css"> <!--coloca ./ e a pasta css-->
+</head>
+<body> <!-- body é a parte visivel da pagina-->
+  
+    <div id="container">
+        <div id="profile">
+            <img src="./assets/avatar.png" alt="Foto de Thais Mabelli"/>
+            <p>@thaismabelli</p>
+        </div>
+
+        <div id="switch" onclick="toggleMode()">
+
+            <button>
+
+            </button>
+
+            <span>
+                
+            </span>
+        </div>
+        <!--ul cria listas desordenadas, ol cria listas ordenadas (teria numeros 1,2,3..)-->
+        <ul>          <!--Cria listas-->
+<li> <a href="https://github.com/thaismabelli" target="_blank">Github</a></li> <!--link que não leva pra lugar nenhum por isso #-->
+<li> <a href="https://www.instagram.com/thaismabelli/" target="_blank">Instagram</a></li> 
+<li> <a href="https://www.linkedin.com/in/thaismabelli/" target="_blank">LinkedIn</a></li>   
+<li> <a href="#" target="_blank">Tiktok</a></li>      
+<!--Usa-se target ="blank" para que ao clicar no nome o link abra em outra guia-->
+</ul> 
+<div id="social-links">
+    <a href="https://github.com/thaismabelli" target="_blank">
+    <ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://instagram.com/thaismabelli" target="_blank">
+    <ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="#" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+    <a href="https://www.linkedin.com/in/thaismabelli/" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon></a>
+
+</div>
+
+<footer>
+    Projeto HTML&CSS ♥ Obrigada <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
+</footer>
+    </div>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" ></script> 
+<script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
+
+<script src="./script.js"></script>
+</body>
+</html>
