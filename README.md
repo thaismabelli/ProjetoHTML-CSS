@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O ProjetoHTML&CSS é um agregador de links para usar como cartão de visitas online.
 
-- [Projeto finalizado, online](https://thaismabelli.github.io/ProjetoHTML-CSS/)
+- [Projeto finalizado](https://thaismabelli.github.io/ProjetoHTML-CSS/)
 
 
 
