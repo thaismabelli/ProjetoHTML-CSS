@@ -28,6 +28,7 @@ body {
     background-repeat: no-repeat; /* a imagem nao repete*/
     background-position: top center; 
     background-size: cover; /* esse cover faz a imagem ficar na tela inteira*/
+    height: 100vh;
 
 } 
  body * {
